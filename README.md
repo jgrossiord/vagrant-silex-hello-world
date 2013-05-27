@@ -1,0 +1,2 @@
+vagrant-silex-base
+==================
