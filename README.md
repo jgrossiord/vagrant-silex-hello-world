@@ -31,3 +31,5 @@ To suspend the VM
 
 To destroy the VM
 > vagrant destroy
+
+i
