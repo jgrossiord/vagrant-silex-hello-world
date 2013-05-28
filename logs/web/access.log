@@ -1,4 +1,0 @@
-10.0.2.2 - - [28/May/2013:10:33:14 +0000] "GET / HTTP/1.1" 200 375 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-10.0.2.2 - - [28/May/2013:10:33:15 +0000] "GET /favicon.ico HTTP/1.1" 404 1717 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-10.0.2.2 - - [28/May/2013:10:33:23 +0000] "GET /hello/Julien HTTP/1.1" 200 445 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-10.0.2.2 - - [28/May/2013:10:33:24 +0000] "GET /favicon.ico HTTP/1.1" 404 1717 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
