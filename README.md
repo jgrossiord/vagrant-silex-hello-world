@@ -1,7 +1,8 @@
 Vagrant Silex Hello World
 ==================
 
-Simple Vagrant Setup of a VM with Silex installed and running
+Simple Vagrant Setup of a VM with Silex installed and running.
+Based on the "Hello World" code of Makotokw (https://github.com/makotokw/php-silex-hello-world)
 
 Requirements
 ------------------
