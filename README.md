@@ -22,7 +22,7 @@ Start the VM
 > cd vagrant-silex-hello-world
 > vagrant up
 
-Go in browser to http://localhost:8080/hello/Julien
+Go in browser to logs/web/urls.txt to get the URL of your application
 
 Other commands (see Vagrant doc)
 --------------------
@@ -31,5 +31,3 @@ To suspend the VM
 
 To destroy the VM
 > vagrant destroy
-
-i
