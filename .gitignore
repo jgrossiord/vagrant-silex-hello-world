@@ -20,3 +20,4 @@ composer.lock
 .DS_Store
 logs/web/access.log
 logs/web/error.log
+logs/web/urls.txt

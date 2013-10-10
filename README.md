@@ -11,23 +11,29 @@ Requirements
 
 Add a standard box
 -------------------
-> vagrant box add precise64 http://files.vagrantup.com/precise64.box
-
+```bash
+vagrant box add precise32 http://files.vagrantup.com/precise32.box
+```
 Get the repository
 -------------------
-> git clone git@github.com:jgrossiord/vagrant-silex-hello-world.git
-
+```bash
+git clone git@github.com:jgrossiord/vagrant-silex-hello-world.git
+```
 Start the VM
 -------------------
-> cd vagrant-silex-hello-world
-> vagrant up
-
-Go in browser to http://localhost:8080/hello/Julien
+```bash
+cd vagrant-silex-hello-world
+vagrant up
+```
+See logs/web/urls.txt to get the URL of your application
 
 Other commands (see Vagrant doc)
 --------------------
 To suspend the VM
-> vagrant suspend
-
+```bash
+vagrant suspend
+```
 To destroy the VM
-> vagrant destroy
+```bash
+vagrant destroy
+```

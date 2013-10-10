@@ -10,6 +10,7 @@ then
 fi
 
 rm -f /vagrant/logs/web/*.log
+rm -f /vagrant/logs/web/urls.txt
 
 sudo a2enmod rewrite
 sudo a2dissite 000-default
@@ -21,3 +22,6 @@ curl -s http://getcomposer.org/installer | php5
 php5 composer.phar install
 php5 composer.phar update
 
+ifconfig  | grep 'inet addr:'| grep -v '127.0.0.1' | grep -v '10.0.2' | grep -v '10.11.12.1' | cut -d: -f2 | awk '{ print "http://"$1"/"}' > /vagrant/logs/web/urls.txt
+echo "You can access your application on "
+cat /vagrant/logs/web/urls.txt
