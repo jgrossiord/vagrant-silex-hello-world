@@ -17,7 +17,6 @@ composer.lock
 # Vagrant files
 .vagrant
 
-.DS_Store
 logs/web/access.log
 logs/web/error.log
 logs/web/urls.txt
