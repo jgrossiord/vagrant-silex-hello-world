@@ -1,4 +1,7 @@
 {
+    "name": "vagrant-hello-world",
+    "description": "Skeleton for Silex application with Vagrant",
+    "license": "Apache-2.0",
     "require": {
         "silex/silex": "~1.0",
         "twig/twig": ">=1.8"
