@@ -1,5 +1,5 @@
 {
-    "name": "vagrant-hello-world",
+    "name": "jgrossiord/vagrant-silex-hello-world",
     "description": "Skeleton for Silex application with Vagrant",
     "license": "Apache-2.0",
     "require": {
