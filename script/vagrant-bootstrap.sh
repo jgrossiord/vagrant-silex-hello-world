@@ -6,7 +6,7 @@ sudo apt-get install -y curl apache2 php5 php5-cli php-pear php5-curl phpunit ph
 
 if [ ! -f /etc/apache2/sites-available/silex-app ]
 then
-    sudo ln -s /vagrant/script/template/silex-app.conf /etc/apache2/sites-available/silex-app
+    sudo ln -s /vagrant/script/template/silex-app.conf /etc/apache2/sites-available/silex-app.conf
 fi
 
 rm -f /vagrant/logs/web/*.log
